@@ -15,7 +15,7 @@
             ]
         }
     },
-    "postCreateCommand": "dotnet restore ./GraduateSystem.slnx",
+    "postCreateCommand": "dotnet restore Api.csproj",
     "runArgs": [
         "--privileged"
     ],
