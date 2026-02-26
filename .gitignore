@@ -1,0 +1,57 @@
+## Build outputs
+bin/
+obj/
+out/
+
+## Visual Studio / VS Code / Rider
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+.fleet/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## .NET tooling caches
+.dotnet/
+.local/
+
+## Logs
+*.log
+
+## OS / editor junk
+.DS_Store
+Thumbs.db
+
+## Test results / coverage
+TestResults/
+coverage*/
+*.trx
+
+## ASP.NET / IIS / publish
+PublishProfiles/
+*.Publish.xml
+*.pubxml
+*.publishproj
+wwwroot/lib/
+
+## Secrets (keep real secrets out of git)
+**/secrets.json
+**/appsettings.*.local.json
+
