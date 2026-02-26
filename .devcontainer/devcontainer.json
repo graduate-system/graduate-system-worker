@@ -15,7 +15,7 @@
             ]
         }
     },
-        // "postCreateCommand": "dotnet restore ./cmg-deploymentrequestsapi.csproj",
+    "postCreateCommand": "dotnet restore ./GraduateSystem.slnx",
     "runArgs": [
         "--privileged"
     ],
